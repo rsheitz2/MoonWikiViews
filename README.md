@@ -23,6 +23,6 @@ Data cleaning - Years before 2016 have zero views which were determined to be mi
 Modeling was performed using an LSTM in keras with:
 - 4 recurrent cells
 
-Validation down using Time-Series CV with a mean absolute scaled error
-- mase ~25 once stable
-- took 7 years to stabilize
+Validation performed using Time-Series CV with a mean absolute scaled error
+- mean absolute percent error 20% around peaks
+- mean absolute percent error 13% away from peaks
